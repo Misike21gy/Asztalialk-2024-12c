@@ -11,7 +11,8 @@ namespace Teglalap
         protected double Talap = 3,
            Tpalast = 6,
            magassag = 12,
-           felszin = 0;
+           felszin = 0,
+           terfogat = 0;
         public szamitas(double a, double b, double c)
         {
             this.Talap = a;
@@ -19,7 +20,8 @@ namespace Teglalap
             this.magassag = c;
             SetFelszin();
             this.felszin = this.Talap * 2 + this.Tpalast;
+            this.terfogat = this.Talap * magassag;
         }
-        public double GetTerulet() { return this.GetTerulet(); }
+        public double GetFelszin() { return this.(); }
     }
 }
