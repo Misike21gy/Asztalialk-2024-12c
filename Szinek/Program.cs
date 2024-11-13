@@ -24,7 +24,7 @@ namespace Szinek
             while (szin != "0")
             {
 
-                szin = Console.ReadLine();+
+                szin = Console.ReadLine();
 
                 int bennevan = 0;
                 int ures = 0;
@@ -46,7 +46,7 @@ namespace Szinek
                 {
                     Console.WriteLine("Nem írtál be semmit");
                 }
-                else (bennevan == 0)
+                else
 
             if (bennevan == 0)
                 {

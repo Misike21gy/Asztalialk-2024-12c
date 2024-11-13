@@ -8,7 +8,7 @@ namespace Korhasab
 {
     class teglalap
     {
-        public void teglalap()
+        public teglalap()
         {
             int kerulet = 0;
             int terulet = 0;
