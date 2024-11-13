@@ -11,7 +11,7 @@ namespace Korhasab
         //Az osztály feladata a sugárból kiszámolja a kör kerületét, és területét.
 
         //Osztályváltozók
-        private double sugar,
+        protected double sugar,
             kerulet,
             terulet;
         //Konstruktorok
@@ -61,5 +61,20 @@ namespace Korhasab
 
 
 
+    }
+
+    class Henger : kor
+    {
+        private double magasság,
+            térfogat;
+        public Henger(double r,double m)
+        {
+            this.sugar = r;
+            this.magasság = m;
+            SetTerulet();
+            this.térfogat = this.SetTerulet * this.magasság;
+        }
+        public double GetTérfogat() { return this.GetTérfogat(); }
+        public double GetMagasság() { return this.magasság; }
     }
 }
