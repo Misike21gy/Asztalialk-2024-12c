@@ -64,7 +64,7 @@ namespace HaromszogTipusaOOP
             }
             catch (FormatException)
             {
-                Console.WriteLine("Hibás adatbevitel! Kérem, számokat adjon meg.");
+                Console.WriteLine("Hibás adatbevitel! Számot adjon meg!");
             }
             catch (Exception e)
             {

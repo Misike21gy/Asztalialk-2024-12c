@@ -43,8 +43,8 @@ namespace szoft_tesztóra
             Console.WriteLine(szum);
 
             int ellenorzes = szum % 10;
-            if (ellenorzes == int.Parse(taj[8).ToString()))
-                Console.WriteLine("Jó taj");
+            if (ellenorzes == int.Parse(taj[8].ToString()))
+                Console.WriteLine("Jó taj"); 
             else 
                 Console.WriteLine("Rossz taj");
 
