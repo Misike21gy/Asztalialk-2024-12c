@@ -10,20 +10,26 @@ namespace HaromszogTipusaOOP
     {
         static void Main(string[] args)
         {
-            public double HTipus()
-            {
-                int a = 0;
-                int b = 0;
-                int c = 0;
-                int eredmeny = 0;
+            HTipus program = new HTipus();
+            program.haromszog();
+        }
 
-                Console.WriteLine($"Kérem az A oldal számát");
+        public void haromszog()
+        {
+            int a = 0;
+            int b = 0;
+            int c = 0;
+            int eredmeny = 0;
+
+            try
+            {
+                Console.WriteLine("Kérem az A oldal számát");
                 a = Convert.ToInt32(Console.ReadLine());
 
-                Console.WriteLine($"Kérem a B oldal számát");
+                Console.WriteLine("Kérem a B oldal számát");
                 b = Convert.ToInt32(Console.ReadLine());
 
-                Console.WriteLine($"Kérem a C oldal számát");
+                Console.WriteLine("Kérem a C oldal számát");
                 c = Convert.ToInt32(Console.ReadLine());
 
                 eredmeny = a + b + c % 2;
@@ -55,11 +61,15 @@ namespace HaromszogTipusaOOP
                 {
                     Console.WriteLine("Nem egyenlő szárú háromszög");
                 }
-
-                
             }
-         
-
+            catch (FormatException)
+            {
+                Console.WriteLine("Hibás adatbevitel! Kérem, számokat adjon meg.");
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine($"Hiba történt: {e.Message}");
+            }
 
             Console.ReadKey();
         }
