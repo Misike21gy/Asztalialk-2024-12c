@@ -10,9 +10,9 @@ namespace szoft_teszt12._04
     {
         static void Main(string[] args)
         {
-            int szülev = 0;
+            string szülev;
             string nev;
-            string szh;
+            string halev;
             string orszag;
             int eredmeny = 0;
 
@@ -20,25 +20,60 @@ namespace szoft_teszt12._04
             nev = Console.ReadLine();
 
             Console.WriteLine("Mikor született?");
-            szülev = Convert.ToInt32(Console.ReadLine());
-            eredmeny = 2024 - szülev;
-            try (szülev == 1 && szülev == 2 && szülev == int.Parse(szülev[4].ToString());
+            szülev = Console.ReadLine();
+
+            if (szülev.Length != 4)
+            {
+                Console.WriteLine("Az évszámnak 4 karakter hosszúnak kell lennie.");
+            }
+
+            if (szülev[0] == '1' || szülev[0] == '2')
             {
                 Console.WriteLine("Az évszám helyes!");
             }
-            catch
+            else
             {
-                Console.WriteLine("Az évszám helytelen!");
+                Console.WriteLine("Az évszámnak 1-gyel vagy 2-vel kell kezdődnie.");
             }
-            /*1.helyes e az évszám(4 karakter) 2.hogy szám e 3. hogy 1el vagy 2 vel kezdődik e?(2005,1989*/
 
-            Console.WriteLine("Add meg a születési-halálozási dátumot(pl: 1999-2001)!");
-            szh=Console.ReadLine();
+            try
+            {
+                int szam = int.Parse(szülev);
+            }
+            catch (FormatException)
+            {
+                Console.WriteLine("A beírt adat nem szám.");
+            }
 
-            Console.WriteLine("Melyik országban élt?");
+            int szülev2=Convert.ToInt32(szülev);
+            eredmeny = 2024 - szülev2;
+
+            Console.WriteLine("Melyik országban él?");
             orszag =Console.ReadLine();
 
-            Console.WriteLine($"Üdvözlöm! {nev} jelenleg {eredmeny} éves lenne. {szh}-ig élt az alábbi országban: {orszag}.");
+            Console.WriteLine("Add meg a halálozási dátumot!");
+            halev = Console.ReadLine();
+
+            try
+            {
+                int szam = int.Parse(halev);
+            }
+            catch (FormatException)
+            {
+                Console.WriteLine("A beírt adat nem szám.");
+            }
+
+            if (halev[0] == '1' || halev[0] == '2')
+            {
+                Console.WriteLine("Az évszám helyes!");
+            }
+            else
+            {
+                Console.WriteLine($"Üdvözlöm {nev}! Ön {szülev2}-ben született és jelenleg {eredmeny} éves. Az alábbi országban él most: {orszag}.");
+                break;
+            }
+
+            Console.WriteLine($"Üdvözlöm {nev}! Ön {szülev2}-ben született és jelenleg {eredmeny} éves. {halev}-ig élt az alábbi országban: {orszag}.");
 
             
     
