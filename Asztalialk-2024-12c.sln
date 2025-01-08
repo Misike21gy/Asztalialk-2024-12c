@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "szoft-tesztóra", "szoft.-t
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "szoft-teszt12.04", "szoft-teszt12.04\szoft-teszt12.04.csproj", "{72BF1EB3-BF1C-4442-AC43-E3FDE5D087A6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Varosok", "Varosok\Varosok.csproj", "{3E7B218D-619E-4533-8138-8D3AAD3E6238}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{72BF1EB3-BF1C-4442-AC43-E3FDE5D087A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{72BF1EB3-BF1C-4442-AC43-E3FDE5D087A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{72BF1EB3-BF1C-4442-AC43-E3FDE5D087A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E7B218D-619E-4533-8138-8D3AAD3E6238}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E7B218D-619E-4533-8138-8D3AAD3E6238}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E7B218D-619E-4533-8138-8D3AAD3E6238}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E7B218D-619E-4533-8138-8D3AAD3E6238}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
