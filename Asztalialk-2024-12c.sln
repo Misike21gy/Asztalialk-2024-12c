@@ -39,6 +39,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SetterGetter", "SetterGette
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "szofteszt01.15", "szofteszt01.15\szofteszt01.15.csproj", "{723474D1-92C7-4D42-A9E1-7D419D1BF71F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PropertiesProg", "PropertiesProg\PropertiesProg.csproj", "{27F13E27-8ECA-4D3D-B694-B30427B9EEE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OroklesProg", "OroklesProg\OroklesProg.csproj", "{4695FA75-66C7-4E62-B4EC-B55C7C5EBF77}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +121,14 @@ Global
 		{723474D1-92C7-4D42-A9E1-7D419D1BF71F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{723474D1-92C7-4D42-A9E1-7D419D1BF71F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{723474D1-92C7-4D42-A9E1-7D419D1BF71F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27F13E27-8ECA-4D3D-B694-B30427B9EEE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27F13E27-8ECA-4D3D-B694-B30427B9EEE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27F13E27-8ECA-4D3D-B694-B30427B9EEE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27F13E27-8ECA-4D3D-B694-B30427B9EEE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4695FA75-66C7-4E62-B4EC-B55C7C5EBF77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4695FA75-66C7-4E62-B4EC-B55C7C5EBF77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4695FA75-66C7-4E62-B4EC-B55C7C5EBF77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4695FA75-66C7-4E62-B4EC-B55C7C5EBF77}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
