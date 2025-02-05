@@ -43,6 +43,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PropertiesProg", "Propertie
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OroklesProg", "OroklesProg\OroklesProg.csproj", "{4695FA75-66C7-4E62-B4EC-B55C7C5EBF77}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstract", "Abstract\Abstract.csproj", "{B9589BD3-1F8C-4488-AFCD-01AECBC747D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "szofteszt-02.05", "szofteszt-02.05\szofteszt-02.05.csproj", "{57D33884-AA4D-4B4C-B2AD-38CBB621BD81}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -129,6 +133,14 @@ Global
 		{4695FA75-66C7-4E62-B4EC-B55C7C5EBF77}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4695FA75-66C7-4E62-B4EC-B55C7C5EBF77}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4695FA75-66C7-4E62-B4EC-B55C7C5EBF77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9589BD3-1F8C-4488-AFCD-01AECBC747D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9589BD3-1F8C-4488-AFCD-01AECBC747D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9589BD3-1F8C-4488-AFCD-01AECBC747D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9589BD3-1F8C-4488-AFCD-01AECBC747D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57D33884-AA4D-4B4C-B2AD-38CBB621BD81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57D33884-AA4D-4B4C-B2AD-38CBB621BD81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57D33884-AA4D-4B4C-B2AD-38CBB621BD81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57D33884-AA4D-4B4C-B2AD-38CBB621BD81}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
