@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.34301.259
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teszt", "Teszt\Teszt.csproj", "{EC51DDC9-793D-49C9-85B2-B7DCB602F965}"
 EndProject
@@ -46,6 +46,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstract", "Abstract\Abstract.csproj", "{B9589BD3-1F8C-4488-AFCD-01AECBC747D6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "szofteszt-02.05", "szofteszt-02.05\szofteszt-02.05.csproj", "{57D33884-AA4D-4B4C-B2AD-38CBB621BD81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApp1", "WindowsFormsApp1\WindowsFormsApp1.csproj", "{2E5113CE-84BE-4ADA-BDE5-94B8152239E6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -141,6 +143,10 @@ Global
 		{57D33884-AA4D-4B4C-B2AD-38CBB621BD81}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{57D33884-AA4D-4B4C-B2AD-38CBB621BD81}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{57D33884-AA4D-4B4C-B2AD-38CBB621BD81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E5113CE-84BE-4ADA-BDE5-94B8152239E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E5113CE-84BE-4ADA-BDE5-94B8152239E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E5113CE-84BE-4ADA-BDE5-94B8152239E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E5113CE-84BE-4ADA-BDE5-94B8152239E6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
