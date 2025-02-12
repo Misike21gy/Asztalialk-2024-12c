@@ -49,6 +49,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "szofteszt-02.05", "szoftesz
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApp1", "WindowsFormsApp1\WindowsFormsApp1.csproj", "{2E5113CE-84BE-4ADA-BDE5-94B8152239E6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "szofteszt02.12", "szofteszt02.12\szofteszt02.12.csproj", "{B725762A-D016-4D59-8572-51BFB04FA0FC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -147,6 +149,10 @@ Global
 		{2E5113CE-84BE-4ADA-BDE5-94B8152239E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E5113CE-84BE-4ADA-BDE5-94B8152239E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E5113CE-84BE-4ADA-BDE5-94B8152239E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B725762A-D016-4D59-8572-51BFB04FA0FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B725762A-D016-4D59-8572-51BFB04FA0FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B725762A-D016-4D59-8572-51BFB04FA0FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B725762A-D016-4D59-8572-51BFB04FA0FC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
