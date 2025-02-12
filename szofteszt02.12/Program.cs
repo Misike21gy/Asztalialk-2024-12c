@@ -37,7 +37,7 @@ namespace szofteszt02._12
                 }
 
             }
-            while (siker);
+            while (siker && (n>0 && n<50));
             
             
 
