@@ -51,6 +51,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApp1", "Windows
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "szofteszt02.12", "szofteszt02.12\szofteszt02.12.csproj", "{B725762A-D016-4D59-8572-51BFB04FA0FC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextAlign-Form", "TextAlign-Form\TextAlign-Form.csproj", "{B2C4ED55-019C-4C57-977D-A97FBEBA0F82}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -153,6 +155,10 @@ Global
 		{B725762A-D016-4D59-8572-51BFB04FA0FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B725762A-D016-4D59-8572-51BFB04FA0FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B725762A-D016-4D59-8572-51BFB04FA0FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2C4ED55-019C-4C57-977D-A97FBEBA0F82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2C4ED55-019C-4C57-977D-A97FBEBA0F82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2C4ED55-019C-4C57-977D-A97FBEBA0F82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2C4ED55-019C-4C57-977D-A97FBEBA0F82}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
