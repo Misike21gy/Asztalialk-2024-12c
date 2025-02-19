@@ -46,15 +46,20 @@ namespace WindowsFormsApp1
                 iranyFel = true;
             }
             //Vízszintes irányt váltunk
-            if (!iranyBalra && (point.X - btnKattints.Width)-lepesOldalt < 0)
+            if (!iranyBalra && (((point.X - btnKattints.Width)+lepesOldalt) <= Width))
             {
                 //Vízszintes irányt váltunk
                 iranyBalra = true;
             }
             //Beállítom a gomb pozícióját
-            point.X += iranyBalra ? lepesOldalt: -lepesOldalt;
-            point.Y += iranyFel ? lepesFel : lepesFel;
+            point.X += this.iranyBalra ? -this.lepesOldalt : this.lepesOldalt;
+            point.Y += this.iranyFel ?  -this.lepesFel : this.lepesFel;
             btnKattints.Location = point;
+
+        }
+
+        private void MainForm1_Load(object sender, EventArgs e)
+        {
 
         }
 

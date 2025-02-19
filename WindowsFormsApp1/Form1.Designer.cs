@@ -52,6 +52,7 @@
             this.Controls.Add(this.btnKattints);
             this.Name = "MainForm1";
             this.Text = "Próbálgatás";
+            this.Load += new System.EventHandler(this.MainForm1_Load);
             this.ResumeLayout(false);
 
         }
