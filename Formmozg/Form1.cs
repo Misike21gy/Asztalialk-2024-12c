@@ -20,6 +20,17 @@ namespace Formmozg
             minWidth = 0,
             minHeight = 0;
 
+        private void btnFel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnFelul_Click(object sender, EventArgs e)
+        {
+            //Form elhelyezése a képernyő tetejére
+            Location = new Point(Location.X,0);
+        }
+
         private void btnCsok_Click(object sender, EventArgs e)
         {
             //A form méretének csökkentése, ha a méret nem kisebb a minimum méretnél
@@ -27,6 +38,8 @@ namespace Formmozg
             {
                 Width -= valtSzeles;
             }
+            Width = Width - valtSzeles >= minWidth ? valtSzeles : 0;
+            Height -= Height- valtMagas >= minHeight ? valtMagas : 0;
         }
 
         public Form1()
@@ -35,8 +48,8 @@ namespace Formmozg
             //Form korlátok beállítása
             maxHeight=Screen.GetWorkingArea(this).Height;
             maxWidth = Screen.GetWorkingArea(this).Width;
-            minHeight /= 2;
-            minWidth /= 2;
+            minHeight= maxHeight / 2;
+            minWidth= maxWidth / 2;
         }
 
         private void btnMeretNo_Click(object sender, EventArgs e)

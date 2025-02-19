@@ -32,8 +32,8 @@
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.btnCsok = new System.Windows.Forms.Button();
             this.btnMeretNo = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.btnFelul = new System.Windows.Forms.Button();
+            this.btnFel = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
@@ -95,23 +95,25 @@
             this.btnMeretNo.UseVisualStyleBackColor = true;
             this.btnMeretNo.Click += new System.EventHandler(this.btnMeretNo_Click);
             // 
-            // button3
+            // btnFelul
             // 
-            this.button3.Location = new System.Drawing.Point(323, 113);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(108, 23);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "Felülre";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnFelul.Location = new System.Drawing.Point(323, 113);
+            this.btnFelul.Name = "btnFelul";
+            this.btnFelul.Size = new System.Drawing.Size(108, 23);
+            this.btnFelul.TabIndex = 2;
+            this.btnFelul.Text = "Felülre";
+            this.btnFelul.UseVisualStyleBackColor = true;
+            this.btnFelul.Click += new System.EventHandler(this.btnFelul_Click);
             // 
-            // button4
+            // btnFel
             // 
-            this.button4.Location = new System.Drawing.Point(323, 142);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(108, 23);
-            this.button4.TabIndex = 3;
-            this.button4.Text = "Fel";
-            this.button4.UseVisualStyleBackColor = true;
+            this.btnFel.Location = new System.Drawing.Point(323, 142);
+            this.btnFel.Name = "btnFel";
+            this.btnFel.Size = new System.Drawing.Size(108, 23);
+            this.btnFel.TabIndex = 3;
+            this.btnFel.Text = "Fel";
+            this.btnFel.UseVisualStyleBackColor = true;
+            this.btnFel.Click += new System.EventHandler(this.btnFel_Click);
             // 
             // button5
             // 
@@ -224,8 +226,8 @@
             this.Controls.Add(this.button7);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
+            this.Controls.Add(this.btnFel);
+            this.Controls.Add(this.btnFelul);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Name = "Form1";
@@ -244,10 +246,10 @@
         private System.Windows.Forms.Button btnMeretNo;
         private System.Windows.Forms.Button btnCsok;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button btnFelul;
         private System.Windows.Forms.Button button13;
         private System.Windows.Forms.Button button12;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button btnFel;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button button7;
