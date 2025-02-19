@@ -36,17 +36,18 @@ namespace szofteszt_02._19
                 joszam = 0;
 
 
-
             return joszam;
         }
         static void Main(string[] args)
         {
-            string[]kategoriak=File.ReadAllLines("vas.txt");
+            string[] kategoriak = File.ReadAllLines("vas.txt");
             string szemszam = "1-980227-1258";
             Console.WriteLine(ellenorzes(szemszam));
-            for(int i = 0; i < kategoriak.Length; i++)
+
+            int darab = 0;
+            for (int i = 0; i < kategoriak.Length; i++)
             {
-                if(ellenorzes(kategoriak[i]) == 0)
+                if (ellenorzes(kategoriak[i]) == 0)
                 {
                     darab++;
                 }
@@ -54,6 +55,16 @@ namespace szofteszt_02._19
             }
             Console.WriteLine(darab);
             Console.WriteLine(kategoriak.Length);
+
+            int darabfiu = 0;
+            for (int i = 0; i < kategoriak.Length; i++)
+            {
+                if (kategoriak[i][0] == '1' || kategoriak[i][0] ==);
+                {
+                    darabfiu++;
+                }
+            }
+            Console.WriteLine(darabfiu);
 
         }
     }
