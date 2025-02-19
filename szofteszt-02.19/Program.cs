@@ -59,7 +59,7 @@ namespace szofteszt_02._19
             int darabfiu = 0;
             for (int i = 0; i < kategoriak.Length; i++)
             {
-                if (kategoriak[i][0] == '1' || kategoriak[i][0] ==);
+                if (kategoriak[i][0] == '1' || kategoriak[i][0] == '2') ;
                 {
                     darabfiu++;
                 }
