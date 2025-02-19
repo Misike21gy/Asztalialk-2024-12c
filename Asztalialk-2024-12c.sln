@@ -55,6 +55,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextAlign-Form", "TextAlign
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kurzor-Form", "Kurzor-Form\Kurzor-Form.csproj", "{C9C89194-7222-442F-B01E-708557AF9B3F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Formmozg", "Formmozg\Formmozg.csproj", "{5CBFC63D-88F0-4029-B9E7-E0282F954433}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -165,6 +167,10 @@ Global
 		{C9C89194-7222-442F-B01E-708557AF9B3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C9C89194-7222-442F-B01E-708557AF9B3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C9C89194-7222-442F-B01E-708557AF9B3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CBFC63D-88F0-4029-B9E7-E0282F954433}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CBFC63D-88F0-4029-B9E7-E0282F954433}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CBFC63D-88F0-4029-B9E7-E0282F954433}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CBFC63D-88F0-4029-B9E7-E0282F954433}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
