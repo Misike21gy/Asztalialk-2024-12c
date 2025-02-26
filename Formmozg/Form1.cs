@@ -20,9 +20,71 @@ namespace Formmozg
             minWidth = 0,
             minHeight = 0;
 
-        private void btnFel_Click(object sender, EventArgs e)
+        private double opValtoz=0.2;
+
+        private void Form1_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnKozep_Click(object sender, EventArgs e)
+        {
+            CenterToScreen();
+        }
+
+        private void btnLe_Click(object sender, EventArgs e)
+        {
+            //A formot lefelé visszük a ValtMAgas értékkel, ha a form nem megy ki a képernyőről
+            Location = new Point(Location.X, (Location.Y + Height + valtMagas) >= Screen.GetWorkingArea(this).Height ? Location.Y : Location.Y + valtMagas);
+
+        }
+
+        private void btnAlul_Click(object sender, EventArgs e)
+        {
+            Location = new Point(Location.X, Screen.GetWorkingArea(this).Height - Height);
+
+        }
+
+        private void btnBalszel_Click(object sender, EventArgs e)
+        {
+            //A formot balra szélre visszük
+            Location=new Point(0,Location.Y);
+        }
+
+        private void btnBalra_Click(object sender, EventArgs e)
+        {
+            //Balra igazítjuk
+            Location = new Point(Location.X - valtSzeles < 0 ? 0 : Location.X-valtSzeles,Location.Y);
+        }
+
+        private void btnJobb_Click(object sender, EventArgs e)
+        {
+            //Jobbra igazítjuk
+            Location = new Point(Location.X + Width + valtSzeles >= Screen.PrimaryScreen.Bounds.Width ? Screen.PrimaryScreen.Bounds.Width - Width : Location.X + valtSzeles, Location.Y);
+        }
+
+        private void btnJobbszel_Click(object sender, EventArgs e)
+        {
+            //A formot jobbra szélre illesztjük
+            Location=new Point(Screen.PrimaryScreen.Bounds.Width-Width, Location.Y);
+        }
+
+        private void btnAtlatNo_Click(object sender, EventArgs e)
+        {
+            //Az átlátszóság növelése
+            Opacity += opValtoz;
+        }
+
+        private void btnAtlatCsok_Click(object sender, EventArgs e)
+        {
+            //Az átlátszóság csökkentése
+            Opacity -= opValtoz;
+        }
+
+        private void btnFel_Click(object sender, EventArgs e)
+        {
+            //A formot felfelé visszük a ValtMAgas értékkel, ha a form nem megy ki a képernyőről
+            Location = new Point(Location.X,(Location.Y-valtMagas)<=0 ? 0 : Location.Y-valtMagas);
         }
 
         private void btnFelul_Click(object sender, EventArgs e)
@@ -34,11 +96,7 @@ namespace Formmozg
         private void btnCsok_Click(object sender, EventArgs e)
         {
             //A form méretének csökkentése, ha a méret nem kisebb a minimum méretnél
-            if (Width>=Width-valtSzeles)
-            {
-                Width -= valtSzeles;
-            }
-            Width = Width - valtSzeles >= minWidth ? valtSzeles : 0;
+            Width -= Width - valtSzeles >= minWidth ? valtSzeles : 0;
             Height -= Height- valtMagas >= minHeight ? valtMagas : 0;
         }
 
@@ -50,6 +108,7 @@ namespace Formmozg
             maxWidth = Screen.GetWorkingArea(this).Width;
             minHeight= maxHeight / 2;
             minWidth= maxWidth / 2;
+            //Opacity = 0.5;
         }
 
         private void btnMeretNo_Click(object sender, EventArgs e)

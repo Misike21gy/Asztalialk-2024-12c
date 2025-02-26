@@ -29,22 +29,22 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.btnCsok = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.btnMeretNo = new System.Windows.Forms.Button();
+            this.btnCsok = new System.Windows.Forms.Button();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.btnAtlatCsok = new System.Windows.Forms.Button();
+            this.btnAtlatNo = new System.Windows.Forms.Button();
             this.btnFelul = new System.Windows.Forms.Button();
             this.btnFel = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
-            this.button12 = new System.Windows.Forms.Button();
-            this.button13 = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.btnKozep = new System.Windows.Forms.Button();
+            this.btnLe = new System.Windows.Forms.Button();
+            this.btnAlul = new System.Windows.Forms.Button();
+            this.btnJobb = new System.Windows.Forms.Button();
+            this.btnJobbszel = new System.Windows.Forms.Button();
+            this.btnBalra = new System.Windows.Forms.Button();
+            this.btnBalszel = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -62,18 +62,24 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "groupBox1";
             // 
-            // groupBox2
+            // label1
             // 
-            this.groupBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.groupBox2.Controls.Add(this.label2);
-            this.groupBox2.Controls.Add(this.button13);
-            this.groupBox2.Controls.Add(this.button12);
-            this.groupBox2.Location = new System.Drawing.Point(180, 369);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(465, 65);
-            this.groupBox2.TabIndex = 1;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "groupBox2";
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(14, 31);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(34, 13);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "Méret";
+            // 
+            // btnMeretNo
+            // 
+            this.btnMeretNo.Location = new System.Drawing.Point(111, 19);
+            this.btnMeretNo.Name = "btnMeretNo";
+            this.btnMeretNo.Size = new System.Drawing.Size(111, 28);
+            this.btnMeretNo.TabIndex = 1;
+            this.btnMeretNo.Text = "Növekszik";
+            this.btnMeretNo.UseVisualStyleBackColor = true;
+            this.btnMeretNo.Click += new System.EventHandler(this.btnMeretNo_Click);
             // 
             // btnCsok
             // 
@@ -85,15 +91,47 @@
             this.btnCsok.UseVisualStyleBackColor = true;
             this.btnCsok.Click += new System.EventHandler(this.btnCsok_Click);
             // 
-            // btnMeretNo
+            // groupBox2
             // 
-            this.btnMeretNo.Location = new System.Drawing.Point(111, 19);
-            this.btnMeretNo.Name = "btnMeretNo";
-            this.btnMeretNo.Size = new System.Drawing.Size(111, 28);
-            this.btnMeretNo.TabIndex = 1;
-            this.btnMeretNo.Text = "Növekszik";
-            this.btnMeretNo.UseVisualStyleBackColor = true;
-            this.btnMeretNo.Click += new System.EventHandler(this.btnMeretNo_Click);
+            this.groupBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.groupBox2.Controls.Add(this.label2);
+            this.groupBox2.Controls.Add(this.btnAtlatCsok);
+            this.groupBox2.Controls.Add(this.btnAtlatNo);
+            this.groupBox2.Location = new System.Drawing.Point(180, 369);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(465, 65);
+            this.groupBox2.TabIndex = 1;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "groupBox2";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(14, 34);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(61, 13);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "Átlátszóság";
+            // 
+            // btnAtlatCsok
+            // 
+            this.btnAtlatCsok.Location = new System.Drawing.Point(296, 19);
+            this.btnAtlatCsok.Name = "btnAtlatCsok";
+            this.btnAtlatCsok.Size = new System.Drawing.Size(109, 31);
+            this.btnAtlatCsok.TabIndex = 1;
+            this.btnAtlatCsok.Text = "Csökken";
+            this.btnAtlatCsok.UseVisualStyleBackColor = true;
+            this.btnAtlatCsok.Click += new System.EventHandler(this.btnAtlatCsok_Click);
+            // 
+            // btnAtlatNo
+            // 
+            this.btnAtlatNo.Location = new System.Drawing.Point(111, 19);
+            this.btnAtlatNo.Name = "btnAtlatNo";
+            this.btnAtlatNo.Size = new System.Drawing.Size(109, 31);
+            this.btnAtlatNo.TabIndex = 0;
+            this.btnAtlatNo.Text = "Növekszik";
+            this.btnAtlatNo.UseVisualStyleBackColor = true;
+            this.btnAtlatNo.Click += new System.EventHandler(this.btnAtlatNo_Click);
             // 
             // btnFelul
             // 
@@ -115,123 +153,95 @@
             this.btnFel.UseVisualStyleBackColor = true;
             this.btnFel.Click += new System.EventHandler(this.btnFel_Click);
             // 
-            // button5
+            // btnKozep
             // 
-            this.button5.Location = new System.Drawing.Point(323, 196);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(111, 23);
-            this.button5.TabIndex = 4;
-            this.button5.Text = "Középre";
-            this.button5.UseVisualStyleBackColor = true;
+            this.btnKozep.Location = new System.Drawing.Point(323, 196);
+            this.btnKozep.Name = "btnKozep";
+            this.btnKozep.Size = new System.Drawing.Size(111, 23);
+            this.btnKozep.TabIndex = 4;
+            this.btnKozep.Text = "Középre";
+            this.btnKozep.UseVisualStyleBackColor = true;
+            this.btnKozep.Click += new System.EventHandler(this.btnKozep_Click);
             // 
-            // button6
+            // btnLe
             // 
-            this.button6.Location = new System.Drawing.Point(323, 251);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(111, 23);
-            this.button6.TabIndex = 5;
-            this.button6.Text = "Lefele";
-            this.button6.UseVisualStyleBackColor = true;
+            this.btnLe.Location = new System.Drawing.Point(323, 251);
+            this.btnLe.Name = "btnLe";
+            this.btnLe.Size = new System.Drawing.Size(111, 23);
+            this.btnLe.TabIndex = 5;
+            this.btnLe.Text = "Lefele";
+            this.btnLe.UseVisualStyleBackColor = true;
+            this.btnLe.Click += new System.EventHandler(this.btnLe_Click);
             // 
-            // button7
+            // btnAlul
             // 
-            this.button7.Location = new System.Drawing.Point(323, 280);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(111, 23);
-            this.button7.TabIndex = 6;
-            this.button7.Text = "Leszélre";
-            this.button7.UseVisualStyleBackColor = true;
+            this.btnAlul.Location = new System.Drawing.Point(323, 280);
+            this.btnAlul.Name = "btnAlul";
+            this.btnAlul.Size = new System.Drawing.Size(111, 23);
+            this.btnAlul.TabIndex = 6;
+            this.btnAlul.Text = "Alulra";
+            this.btnAlul.UseVisualStyleBackColor = true;
+            this.btnAlul.Click += new System.EventHandler(this.btnAlul_Click);
             // 
-            // button8
+            // btnJobb
             // 
-            this.button8.Location = new System.Drawing.Point(476, 196);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(111, 23);
-            this.button8.TabIndex = 7;
-            this.button8.Text = "Jobbra";
-            this.button8.UseVisualStyleBackColor = true;
+            this.btnJobb.Location = new System.Drawing.Point(476, 196);
+            this.btnJobb.Name = "btnJobb";
+            this.btnJobb.Size = new System.Drawing.Size(111, 23);
+            this.btnJobb.TabIndex = 7;
+            this.btnJobb.Text = "Jobbra";
+            this.btnJobb.UseVisualStyleBackColor = true;
+            this.btnJobb.Click += new System.EventHandler(this.btnJobb_Click);
             // 
-            // button9
+            // btnJobbszel
             // 
-            this.button9.Location = new System.Drawing.Point(623, 196);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(111, 23);
-            this.button9.TabIndex = 8;
-            this.button9.Text = "Jobbszélre";
-            this.button9.UseVisualStyleBackColor = true;
+            this.btnJobbszel.Location = new System.Drawing.Point(623, 196);
+            this.btnJobbszel.Name = "btnJobbszel";
+            this.btnJobbszel.Size = new System.Drawing.Size(111, 23);
+            this.btnJobbszel.TabIndex = 8;
+            this.btnJobbszel.Text = "Jobbszélre";
+            this.btnJobbszel.UseVisualStyleBackColor = true;
+            this.btnJobbszel.Click += new System.EventHandler(this.btnJobbszel_Click);
             // 
-            // button10
+            // btnBalra
             // 
-            this.button10.Location = new System.Drawing.Point(180, 196);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(111, 23);
-            this.button10.TabIndex = 9;
-            this.button10.Text = "Balra";
-            this.button10.UseVisualStyleBackColor = true;
+            this.btnBalra.Location = new System.Drawing.Point(180, 196);
+            this.btnBalra.Name = "btnBalra";
+            this.btnBalra.Size = new System.Drawing.Size(111, 23);
+            this.btnBalra.TabIndex = 9;
+            this.btnBalra.Text = "Balra";
+            this.btnBalra.UseVisualStyleBackColor = true;
+            this.btnBalra.Click += new System.EventHandler(this.btnBalra_Click);
             // 
-            // button11
+            // btnBalszel
             // 
-            this.button11.Location = new System.Drawing.Point(50, 196);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(111, 23);
-            this.button11.TabIndex = 10;
-            this.button11.Text = "Balszélre";
-            this.button11.UseVisualStyleBackColor = true;
-            // 
-            // button12
-            // 
-            this.button12.Location = new System.Drawing.Point(111, 19);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(109, 31);
-            this.button12.TabIndex = 0;
-            this.button12.Text = "Növekszik";
-            this.button12.UseVisualStyleBackColor = true;
-            // 
-            // button13
-            // 
-            this.button13.Location = new System.Drawing.Point(296, 19);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(109, 31);
-            this.button13.TabIndex = 1;
-            this.button13.Text = "Csökken";
-            this.button13.UseVisualStyleBackColor = true;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(14, 31);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(34, 13);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "Méret";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(14, 34);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(61, 13);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "Átlátszóság";
+            this.btnBalszel.Location = new System.Drawing.Point(50, 196);
+            this.btnBalszel.Name = "btnBalszel";
+            this.btnBalszel.Size = new System.Drawing.Size(111, 23);
+            this.btnBalszel.TabIndex = 10;
+            this.btnBalszel.Text = "Balszélre";
+            this.btnBalszel.UseVisualStyleBackColor = true;
+            this.btnBalszel.Click += new System.EventHandler(this.btnBalszel_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button11);
-            this.Controls.Add(this.button10);
-            this.Controls.Add(this.button9);
-            this.Controls.Add(this.button8);
-            this.Controls.Add(this.button7);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button5);
+            this.Controls.Add(this.btnBalszel);
+            this.Controls.Add(this.btnBalra);
+            this.Controls.Add(this.btnJobbszel);
+            this.Controls.Add(this.btnJobb);
+            this.Controls.Add(this.btnAlul);
+            this.Controls.Add(this.btnLe);
+            this.Controls.Add(this.btnKozep);
             this.Controls.Add(this.btnFel);
             this.Controls.Add(this.btnFelul);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
@@ -247,16 +257,16 @@
         private System.Windows.Forms.Button btnCsok;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.Button btnFelul;
-        private System.Windows.Forms.Button button13;
-        private System.Windows.Forms.Button button12;
+        private System.Windows.Forms.Button btnAtlatCsok;
+        private System.Windows.Forms.Button btnAtlatNo;
         private System.Windows.Forms.Button btnFel;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.Button button10;
-        private System.Windows.Forms.Button button11;
+        private System.Windows.Forms.Button btnKozep;
+        private System.Windows.Forms.Button btnLe;
+        private System.Windows.Forms.Button btnAlul;
+        private System.Windows.Forms.Button btnJobb;
+        private System.Windows.Forms.Button btnJobbszel;
+        private System.Windows.Forms.Button btnBalra;
+        private System.Windows.Forms.Button btnBalszel;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
     }
