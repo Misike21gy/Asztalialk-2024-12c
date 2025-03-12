@@ -63,6 +63,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Snooker", "Snooker\Snooker.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jegyertekelo", "Jegyertekelo\Jegyertekelo.csproj", "{A89101A1-F184-43E0-A112-6F61F89B0404}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "halmazok", "halmazok\halmazok.csproj", "{3598F7FA-5E35-4946-AF22-26D86DE2B3AD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -189,6 +191,10 @@ Global
 		{A89101A1-F184-43E0-A112-6F61F89B0404}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A89101A1-F184-43E0-A112-6F61F89B0404}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A89101A1-F184-43E0-A112-6F61F89B0404}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3598F7FA-5E35-4946-AF22-26D86DE2B3AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3598F7FA-5E35-4946-AF22-26D86DE2B3AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3598F7FA-5E35-4946-AF22-26D86DE2B3AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3598F7FA-5E35-4946-AF22-26D86DE2B3AD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
