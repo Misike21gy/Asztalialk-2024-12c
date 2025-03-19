@@ -28,8 +28,8 @@ namespace szoftesztdoga_03._12
                 Console.WriteLine("A számsor helytelen");
             }
 
-            int szam1=Convert.ToInt32(Convert.ToString(adoazonosito[0]));
-            int szam2=Convert.ToInt32(Convert.ToString(adoazonosito[1]));
+            int szam1 = Convert.ToInt32(Convert.ToString(adoazonosito[0]));
+            int szam2 = Convert.ToInt32(Convert.ToString(adoazonosito[1]));
             int szam3 = Convert.ToInt32(Convert.ToString(adoazonosito[2]));
             int szam4 = Convert.ToInt32(Convert.ToString(adoazonosito[3]));
             int szam5 = Convert.ToInt32(Convert.ToString(adoazonosito[4]));
