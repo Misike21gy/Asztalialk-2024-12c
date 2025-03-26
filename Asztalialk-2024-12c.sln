@@ -67,6 +67,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "halmazok", "halmazok\halmaz
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "szoftesztdoga-03.12", "szoftesztdoga-03.12\szoftesztdoga-03.12.csproj", "{BDCA63BF-FF7B-402D-BD4F-446E3C347903}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mysql.users", "mysql.users\mysql.users.csproj", "{C5234E78-67A2-401E-BC11-2C18481E70A7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -201,6 +203,10 @@ Global
 		{BDCA63BF-FF7B-402D-BD4F-446E3C347903}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BDCA63BF-FF7B-402D-BD4F-446E3C347903}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BDCA63BF-FF7B-402D-BD4F-446E3C347903}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5234E78-67A2-401E-BC11-2C18481E70A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5234E78-67A2-401E-BC11-2C18481E70A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5234E78-67A2-401E-BC11-2C18481E70A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5234E78-67A2-401E-BC11-2C18481E70A7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
