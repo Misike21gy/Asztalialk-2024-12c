@@ -69,6 +69,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "szoftesztdoga-03.12", "szof
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mysql.users", "mysql.users\mysql.users.csproj", "{C5234E78-67A2-401E-BC11-2C18481E70A7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "auto", "auto\auto.csproj", "{1ABA06CB-65AE-4C46-8725-22B63F49A947}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject1", "TestProject1\TestProject1.csproj", "{1884D4FC-1855-47C4-898B-D590125A742C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -207,6 +211,14 @@ Global
 		{C5234E78-67A2-401E-BC11-2C18481E70A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C5234E78-67A2-401E-BC11-2C18481E70A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C5234E78-67A2-401E-BC11-2C18481E70A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1ABA06CB-65AE-4C46-8725-22B63F49A947}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1ABA06CB-65AE-4C46-8725-22B63F49A947}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1ABA06CB-65AE-4C46-8725-22B63F49A947}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1ABA06CB-65AE-4C46-8725-22B63F49A947}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1884D4FC-1855-47C4-898B-D590125A742C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1884D4FC-1855-47C4-898B-D590125A742C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1884D4FC-1855-47C4-898B-D590125A742C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1884D4FC-1855-47C4-898B-D590125A742C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
