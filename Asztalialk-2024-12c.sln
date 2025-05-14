@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.11.35327.3
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.35130.168
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teszt", "Teszt\Teszt.csproj", "{EC51DDC9-793D-49C9-85B2-B7DCB602F965}"
 EndProject
@@ -74,6 +74,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "program04.02", "program04.02\program04.02.csproj", "{E5EB5BC0-92A2-4D85-87B8-82274E30D480}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject2", "TestProject2\TestProject2.csproj", "{AE7BC763-D2CF-4131-9848-40686F11C918}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kihivas", "kihivas\kihivas.csproj", "{29FDF395-A8D2-45C2-8544-6AC0135AD038}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -225,6 +227,10 @@ Global
 		{AE7BC763-D2CF-4131-9848-40686F11C918}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE7BC763-D2CF-4131-9848-40686F11C918}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AE7BC763-D2CF-4131-9848-40686F11C918}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29FDF395-A8D2-45C2-8544-6AC0135AD038}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29FDF395-A8D2-45C2-8544-6AC0135AD038}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29FDF395-A8D2-45C2-8544-6AC0135AD038}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29FDF395-A8D2-45C2-8544-6AC0135AD038}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
