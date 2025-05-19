@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.35130.168
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36109.1 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teszt", "Teszt\Teszt.csproj", "{EC51DDC9-793D-49C9-85B2-B7DCB602F965}"
 EndProject
@@ -78,6 +78,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kihivas", "kihivas\kihivas.csproj", "{29FDF395-A8D2-45C2-8544-6AC0135AD038}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "befozes", "befozes\befozes.csproj", "{7212BCB9-B4C0-4EF2-9158-ADEEA8FC41A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "értékelő-app", "értékelő-app\értékelő-app.csproj", "{ED11ECD9-011D-4BEA-8CC7-9D8F546050CA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -237,6 +239,10 @@ Global
 		{7212BCB9-B4C0-4EF2-9158-ADEEA8FC41A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7212BCB9-B4C0-4EF2-9158-ADEEA8FC41A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7212BCB9-B4C0-4EF2-9158-ADEEA8FC41A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED11ECD9-011D-4BEA-8CC7-9D8F546050CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED11ECD9-011D-4BEA-8CC7-9D8F546050CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED11ECD9-011D-4BEA-8CC7-9D8F546050CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED11ECD9-011D-4BEA-8CC7-9D8F546050CA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
