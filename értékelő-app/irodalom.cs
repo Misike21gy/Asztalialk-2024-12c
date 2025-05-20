@@ -48,6 +48,11 @@ namespace értékelő_app
             label_vers.Visible = false;
 
             btn_end.Visible = false;
+
+            btn_fomenu.Visible = false;
+
+            label_jó.Visible = false;
+            label_hibás1.Visible = false;
         }
 
         private void btn_start_Click(object sender, EventArgs e)
@@ -86,6 +91,36 @@ namespace értékelő_app
             label_alcim.Visible = false;
 
             btn_start.Visible = false;
+
+            label_jó.Visible = false;
+            label_hibás1.Visible = false;
+        }
+
+        private void btn_end_Click(object sender, EventArgs e)
+        {
+            if (textBox_bedeanna.Text == "Mikszáth Kálmán" && textBox_csongor.Text == "Vörösmarty Mihály" && textBox_tothlajos.Text == "Örkény István" && textBox_góg.Text == "Góg" && textBox_magóg.Text == "Magóg" && checkBox_ja_hamis.Checked == true)
+            {
+                label_jó.Visible = true;
+                label_hibás1.Visible = false;
+                btn_fomenu.Visible = true;
+            }
+
+            else 
+            {
+                label_hibás1.Visible = true;
+                label_jó.Visible = false;
+                btn_end.Visible = true;
+            }
+
+
+        }
+
+        private void btn_fomenu_Click(object sender, EventArgs e)
+        {
+            var Form1 = new Form1();
+            Form1.Show();
+
+            this.Hide();
         }
     }
 }

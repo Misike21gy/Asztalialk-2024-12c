@@ -35,6 +35,7 @@
             this.label_alcim = new System.Windows.Forms.Label();
             this.label_alcim2 = new System.Windows.Forms.Label();
             this.label_felszolitas = new System.Windows.Forms.Label();
+            this.btn_angol = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label_cim
@@ -50,7 +51,7 @@
             // btn_irodalom
             // 
             this.btn_irodalom.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_irodalom.Location = new System.Drawing.Point(626, 233);
+            this.btn_irodalom.Location = new System.Drawing.Point(626, 218);
             this.btn_irodalom.Name = "btn_irodalom";
             this.btn_irodalom.Size = new System.Drawing.Size(117, 54);
             this.btn_irodalom.TabIndex = 1;
@@ -61,22 +62,24 @@
             // btn_töri
             // 
             this.btn_töri.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_töri.Location = new System.Drawing.Point(626, 340);
+            this.btn_töri.Location = new System.Drawing.Point(626, 320);
             this.btn_töri.Name = "btn_töri";
             this.btn_töri.Size = new System.Drawing.Size(117, 54);
             this.btn_töri.TabIndex = 2;
             this.btn_töri.Text = "Történelem";
             this.btn_töri.UseVisualStyleBackColor = true;
+            this.btn_töri.Click += new System.EventHandler(this.btn_töri_Click);
             // 
             // btn_matek
             // 
+            this.btn_matek.BackColor = System.Drawing.Color.LightCoral;
             this.btn_matek.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_matek.Location = new System.Drawing.Point(626, 445);
+            this.btn_matek.Location = new System.Drawing.Point(626, 428);
             this.btn_matek.Name = "btn_matek";
             this.btn_matek.Size = new System.Drawing.Size(117, 54);
             this.btn_matek.TabIndex = 3;
             this.btn_matek.Text = "Matematika";
-            this.btn_matek.UseVisualStyleBackColor = true;
+            this.btn_matek.UseVisualStyleBackColor = false;
             // 
             // label_alcim
             // 
@@ -102,20 +105,32 @@
             // label_felszolitas
             // 
             this.label_felszolitas.AutoSize = true;
-            this.label_felszolitas.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_felszolitas.Font = new System.Drawing.Font("Verdana", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_felszolitas.ForeColor = System.Drawing.Color.DarkRed;
-            this.label_felszolitas.Location = new System.Drawing.Point(744, 457);
+            this.label_felszolitas.Location = new System.Drawing.Point(218, 489);
             this.label_felszolitas.Name = "label_felszolitas";
-            this.label_felszolitas.Size = new System.Drawing.Size(372, 32);
+            this.label_felszolitas.Size = new System.Drawing.Size(331, 36);
             this.label_felszolitas.TabIndex = 6;
-            this.label_felszolitas.Text = "Átmenetileg nem elérhető !!!\r\nA szolgáltatás kimaradásért szíves elnézésedet kérj" +
-    "ük !";
+            this.label_felszolitas.Text = "Egyes tantárgyak még feltöltés alatt állnak!\r\n   Szíves megértésed és türelmed ké" +
+    "rjük!";
+            // 
+            // btn_angol
+            // 
+            this.btn_angol.BackColor = System.Drawing.Color.LightCoral;
+            this.btn_angol.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_angol.Location = new System.Drawing.Point(626, 529);
+            this.btn_angol.Name = "btn_angol";
+            this.btn_angol.Size = new System.Drawing.Size(117, 54);
+            this.btn_angol.TabIndex = 7;
+            this.btn_angol.Text = "Angol nyelv";
+            this.btn_angol.UseVisualStyleBackColor = false;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1128, 610);
+            this.Controls.Add(this.btn_angol);
             this.Controls.Add(this.label_felszolitas);
             this.Controls.Add(this.label_alcim2);
             this.Controls.Add(this.label_alcim);
@@ -124,7 +139,9 @@
             this.Controls.Add(this.btn_irodalom);
             this.Controls.Add(this.label_cim);
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -139,6 +156,7 @@
         private System.Windows.Forms.Label label_alcim;
         private System.Windows.Forms.Label label_alcim2;
         private System.Windows.Forms.Label label_felszolitas;
+        private System.Windows.Forms.Button btn_angol;
     }
 }
 

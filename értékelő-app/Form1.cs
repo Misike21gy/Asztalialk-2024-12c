@@ -24,5 +24,19 @@ namespace értékelő_app
 
             this.Hide();
         }
+
+        private void btn_töri_Click(object sender, EventArgs e)
+        {
+
+            var történelemForm = new történelem();
+            történelemForm.Show();
+
+            this.Hide();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

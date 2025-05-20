@@ -54,6 +54,9 @@
             this.textBox_magóg = new System.Windows.Forms.TextBox();
             this.label_szavak_gógmagóg = new System.Windows.Forms.Label();
             this.btn_end = new System.Windows.Forms.Button();
+            this.label_hibás1 = new System.Windows.Forms.Label();
+            this.label_jó = new System.Windows.Forms.Label();
+            this.btn_fomenu = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label_cim
@@ -292,12 +295,50 @@
             this.btn_end.TabIndex = 24;
             this.btn_end.Text = "BEFEJEZÉS";
             this.btn_end.UseVisualStyleBackColor = true;
+            this.btn_end.Click += new System.EventHandler(this.btn_end_Click);
+            // 
+            // label_hibás1
+            // 
+            this.label_hibás1.AutoSize = true;
+            this.label_hibás1.BackColor = System.Drawing.Color.Red;
+            this.label_hibás1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_hibás1.Location = new System.Drawing.Point(390, 502);
+            this.label_hibás1.Name = "label_hibás1";
+            this.label_hibás1.Size = new System.Drawing.Size(469, 24);
+            this.label_hibás1.TabIndex = 25;
+            this.label_hibás1.Text = "Az feladatsorban vannak hibák. Ellenőrizd és kezd újra!";
+            // 
+            // label_jó
+            // 
+            this.label_jó.AutoSize = true;
+            this.label_jó.BackColor = System.Drawing.Color.GreenYellow;
+            this.label_jó.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_jó.Location = new System.Drawing.Point(446, 502);
+            this.label_jó.Name = "label_jó";
+            this.label_jó.Size = new System.Drawing.Size(355, 24);
+            this.label_jó.TabIndex = 26;
+            this.label_jó.Text = "Az feladatsorban nincs hiba! Ügyes voltál!";
+            // 
+            // btn_fomenu
+            // 
+            this.btn_fomenu.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_fomenu.Location = new System.Drawing.Point(952, 480);
+            this.btn_fomenu.Name = "btn_fomenu";
+            this.btn_fomenu.Size = new System.Drawing.Size(154, 66);
+            this.btn_fomenu.TabIndex = 27;
+            this.btn_fomenu.Text = "Vissza a főmenübe!";
+            this.btn_fomenu.UseVisualStyleBackColor = true;
+            this.btn_fomenu.Click += new System.EventHandler(this.btn_fomenu_Click);
             // 
             // irodalom
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(1156, 574);
+            this.Controls.Add(this.btn_fomenu);
+            this.Controls.Add(this.label_jó);
+            this.Controls.Add(this.label_hibás1);
             this.Controls.Add(this.btn_end);
             this.Controls.Add(this.label_szavak_gógmagóg);
             this.Controls.Add(this.textBox_magóg);
@@ -324,6 +365,7 @@
             this.Controls.Add(this.label_alcim);
             this.Controls.Add(this.label_cim);
             this.Name = "irodalom";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "irodalom";
             this.Load += new System.EventHandler(this.irodalom_Load);
             this.ResumeLayout(false);
@@ -359,5 +401,8 @@
         private System.Windows.Forms.TextBox textBox_magóg;
         private System.Windows.Forms.Label label_szavak_gógmagóg;
         private System.Windows.Forms.Button btn_end;
+        private System.Windows.Forms.Label label_hibás1;
+        private System.Windows.Forms.Label label_jó;
+        private System.Windows.Forms.Button btn_fomenu;
     }
 }
