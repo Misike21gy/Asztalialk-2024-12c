@@ -47,6 +47,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="angol.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="angol.Designer.cs">
+      <DependentUpon>angol.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -67,6 +73,9 @@
     <Compile Include="történelem.Designer.cs">
       <DependentUpon>történelem.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="angol.resx">
+      <DependentUpon>angol.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

@@ -38,5 +38,13 @@ namespace értékelő_app
         {
 
         }
+
+        private void btn_angol_Click(object sender, EventArgs e)
+        {
+            var angolForm = new angol();
+            angolForm.Show();
+
+            this.Hide();
+        }
     }
 }

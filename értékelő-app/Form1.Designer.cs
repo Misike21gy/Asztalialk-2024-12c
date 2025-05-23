@@ -107,23 +107,23 @@
             this.label_felszolitas.AutoSize = true;
             this.label_felszolitas.Font = new System.Drawing.Font("Verdana", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_felszolitas.ForeColor = System.Drawing.Color.DarkRed;
-            this.label_felszolitas.Location = new System.Drawing.Point(218, 489);
+            this.label_felszolitas.Location = new System.Drawing.Point(319, 437);
             this.label_felszolitas.Name = "label_felszolitas";
-            this.label_felszolitas.Size = new System.Drawing.Size(331, 36);
+            this.label_felszolitas.Size = new System.Drawing.Size(301, 36);
             this.label_felszolitas.TabIndex = 6;
-            this.label_felszolitas.Text = "Egyes tantárgyak még feltöltés alatt állnak!\r\n   Szíves megértésed és türelmed ké" +
-    "rjük!";
+            this.label_felszolitas.Text = "Ez a tantárgy még feltöltés alatt áll!\r\nSzíves megértésed és türelmed kérjük!";
             // 
             // btn_angol
             // 
-            this.btn_angol.BackColor = System.Drawing.Color.LightCoral;
+            this.btn_angol.BackColor = System.Drawing.SystemColors.Control;
             this.btn_angol.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_angol.Location = new System.Drawing.Point(626, 529);
             this.btn_angol.Name = "btn_angol";
             this.btn_angol.Size = new System.Drawing.Size(117, 54);
             this.btn_angol.TabIndex = 7;
             this.btn_angol.Text = "Angol nyelv";
-            this.btn_angol.UseVisualStyleBackColor = false;
+            this.btn_angol.UseVisualStyleBackColor = true;
+            this.btn_angol.Click += new System.EventHandler(this.btn_angol_Click);
             // 
             // Form1
             // 
