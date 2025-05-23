@@ -41,23 +41,28 @@
             this.nemdki2 = new System.Windows.Forms.CheckBox();
             this.hamis2 = new System.Windows.Forms.CheckBox();
             this.igaz2 = new System.Windows.Forms.CheckBox();
+            this.btn_end = new System.Windows.Forms.Button();
+            this.btn_fomenu = new System.Windows.Forms.Button();
+            this.label_jó = new System.Windows.Forms.Label();
+            this.label_hibás1 = new System.Windows.Forms.Label();
+            this.label_kerdes2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label_cim
             // 
             this.label_cim.AutoSize = true;
             this.label_cim.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_cim.Location = new System.Drawing.Point(116, 9);
+            this.label_cim.Location = new System.Drawing.Point(134, 9);
             this.label_cim.Name = "label_cim";
-            this.label_cim.Size = new System.Drawing.Size(687, 33);
+            this.label_cim.Size = new System.Drawing.Size(638, 33);
             this.label_cim.TabIndex = 1;
-            this.label_cim.Text = "Üdvözöllek az irdolalom érettségi felkészítő oldalán!";
+            this.label_cim.Text = "Üdvözöllek az angol érettségi felkészítő oldalán!";
             // 
             // label_alcim
             // 
             this.label_alcim.AutoSize = true;
             this.label_alcim.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_alcim.Location = new System.Drawing.Point(146, 42);
+            this.label_alcim.Location = new System.Drawing.Point(136, 42);
             this.label_alcim.Name = "label_alcim";
             this.label_alcim.Size = new System.Drawing.Size(626, 24);
             this.label_alcim.TabIndex = 2;
@@ -72,6 +77,7 @@
             this.btn_start.TabIndex = 3;
             this.btn_start.Text = "START";
             this.btn_start.UseVisualStyleBackColor = true;
+            this.btn_start.Click += new System.EventHandler(this.btn_start_Click);
             // 
             // label_kerdes1
             // 
@@ -181,11 +187,70 @@
             this.igaz2.Text = "igaz";
             this.igaz2.UseVisualStyleBackColor = true;
             // 
+            // btn_end
+            // 
+            this.btn_end.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_end.Location = new System.Drawing.Point(845, 527);
+            this.btn_end.Name = "btn_end";
+            this.btn_end.Size = new System.Drawing.Size(154, 66);
+            this.btn_end.TabIndex = 25;
+            this.btn_end.Text = "BEFEJEZÉS";
+            this.btn_end.UseVisualStyleBackColor = true;
+            this.btn_end.Click += new System.EventHandler(this.btn_end_Click);
+            // 
+            // btn_fomenu
+            // 
+            this.btn_fomenu.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_fomenu.Location = new System.Drawing.Point(845, 527);
+            this.btn_fomenu.Name = "btn_fomenu";
+            this.btn_fomenu.Size = new System.Drawing.Size(154, 66);
+            this.btn_fomenu.TabIndex = 28;
+            this.btn_fomenu.Text = "Vissza a főmenübe!";
+            this.btn_fomenu.UseVisualStyleBackColor = true;
+            this.btn_fomenu.Click += new System.EventHandler(this.btn_fomenu_Click);
+            // 
+            // label_jó
+            // 
+            this.label_jó.AutoSize = true;
+            this.label_jó.BackColor = System.Drawing.Color.GreenYellow;
+            this.label_jó.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_jó.Location = new System.Drawing.Point(386, 569);
+            this.label_jó.Name = "label_jó";
+            this.label_jó.Size = new System.Drawing.Size(355, 24);
+            this.label_jó.TabIndex = 29;
+            this.label_jó.Text = "Az feladatsorban nincs hiba! Ügyes voltál!";
+            // 
+            // label_hibás1
+            // 
+            this.label_hibás1.AutoSize = true;
+            this.label_hibás1.BackColor = System.Drawing.Color.Red;
+            this.label_hibás1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_hibás1.Location = new System.Drawing.Point(334, 569);
+            this.label_hibás1.Name = "label_hibás1";
+            this.label_hibás1.Size = new System.Drawing.Size(469, 24);
+            this.label_hibás1.TabIndex = 30;
+            this.label_hibás1.Text = "Az feladatsorban vannak hibák. Ellenőrizd és kezd újra!";
+            // 
+            // label_kerdes2
+            // 
+            this.label_kerdes2.AutoSize = true;
+            this.label_kerdes2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label_kerdes2.Location = new System.Drawing.Point(12, 380);
+            this.label_kerdes2.Name = "label_kerdes2";
+            this.label_kerdes2.Size = new System.Drawing.Size(71, 24);
+            this.label_kerdes2.TabIndex = 31;
+            this.label_kerdes2.Text = "2.   abc";
+            // 
             // angol
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1025, 622);
+            this.Controls.Add(this.label_kerdes2);
+            this.Controls.Add(this.label_hibás1);
+            this.Controls.Add(this.label_jó);
+            this.Controls.Add(this.btn_fomenu);
+            this.Controls.Add(this.btn_end);
             this.Controls.Add(this.nemdki2);
             this.Controls.Add(this.hamis2);
             this.Controls.Add(this.igaz2);
@@ -223,5 +288,10 @@
         private System.Windows.Forms.CheckBox nemdki2;
         private System.Windows.Forms.CheckBox hamis2;
         private System.Windows.Forms.CheckBox igaz2;
+        private System.Windows.Forms.Button btn_end;
+        private System.Windows.Forms.Button btn_fomenu;
+        private System.Windows.Forms.Label label_jó;
+        private System.Windows.Forms.Label label_hibás1;
+        private System.Windows.Forms.Label label_kerdes2;
     }
 }

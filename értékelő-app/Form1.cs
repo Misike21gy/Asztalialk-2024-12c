@@ -46,5 +46,21 @@ namespace értékelő_app
 
             this.Hide();
         }
+
+        private void btn_matek_Click(object sender, EventArgs e)
+        {
+            var matekForm = new matek();
+            matekForm.Show();
+
+            this.Hide();
+        }
+
+        private void btn_nyelvtan_Click(object sender, EventArgs e)
+        {
+            var nyelvtanForm = new nyelvtan();
+            nyelvtanForm.Show();
+
+            this.Hide();
+        }
     }
 }
