@@ -87,6 +87,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBConnectionsClass1", "DBCo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zoldkihivas", "zoldkihivas\zoldkihivas.csproj", "{47685151-0B3A-4C91-A491-8C1315B10F79}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeosztasokForm", "BeosztasokForm\BeosztasokForm.csproj", "{622DA8B8-3139-4084-BD5E-6094D0A5E435}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IktatoMySql", "IktatoMySql\IktatoMySql\IktatoMySql.csproj", "{0EDB0705-6610-46BB-9473-334D692934C7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -261,6 +265,14 @@ Global
 		{47685151-0B3A-4C91-A491-8C1315B10F79}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{47685151-0B3A-4C91-A491-8C1315B10F79}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{47685151-0B3A-4C91-A491-8C1315B10F79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{622DA8B8-3139-4084-BD5E-6094D0A5E435}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{622DA8B8-3139-4084-BD5E-6094D0A5E435}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{622DA8B8-3139-4084-BD5E-6094D0A5E435}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{622DA8B8-3139-4084-BD5E-6094D0A5E435}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EDB0705-6610-46BB-9473-334D692934C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EDB0705-6610-46BB-9473-334D692934C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EDB0705-6610-46BB-9473-334D692934C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EDB0705-6610-46BB-9473-334D692934C7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
